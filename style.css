@@ -1,7 +1,15 @@
 
 
 
+#mainBody {
+    background-image: url(./assets/o-CODING-facebook.jpg);
+}
 
+#aboutMe {
+    background-color: beige;
+    padding: 10%;
+    margin-bottom: 30%;
+}
 
 
 

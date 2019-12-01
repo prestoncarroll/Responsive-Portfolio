@@ -31,7 +31,17 @@ p { font-family: fantasy;
 
 footer { font-size: small;
 margin-left: inherit;
-padding-top: 10%;}
+padding-top: 10%;
+}
+
+
+#portBody {
+    background-image: url(./assets/o-CODING-facebook.jpg);
+}
+
+#portBack {
+    padding: .7%;
+}
 
 /* button { margin-left: 30%;} */
 

@@ -1,8 +1,19 @@
 
-
+.card {
+    align-self: auto;
+    padding: 0%;
+    margin-top: 10%;
+}
 
 #mainBody {
     background-image: url(./assets/o-CODING-facebook.jpg);
+}
+
+#sections{
+    background-image: url(./assets/o-CODING-facebook.jpg);
+}
+#contactBody{
+    background-color: beige;
 }
 
 #aboutMe {
@@ -13,8 +24,8 @@
 
 
 
-.navbar-light .navbar-brand { background-color: lightskyblue;
-color: white;
+.navbar-light .navbar-brand { color: black;
+
 }
 
 
@@ -28,6 +39,7 @@ padding-left: 10px;
 h1 { background-color: lightskyblue;
 color: white;
 margin-left: 2em;
+margin-right: 40% ;
 }
 
 p { font-family: fantasy;

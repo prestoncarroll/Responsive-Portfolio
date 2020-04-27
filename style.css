@@ -1,6 +1,21 @@
 
 
 
+#mePic {
+    
+    border-radius: 50%;
+      overflow: hidden;
+        transition-duration: 5s;
+        transition-property: transform;
+    }
+    #mePic:hover {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+
+
+
+
 .card {
     align-self: auto;
     padding: 0%;
@@ -54,15 +69,22 @@ padding-left: 10px;
 
 h1 { 
 color:skyblue;
+font-family: 'dekko';
+font-size: 55px;
+margin-left: 6%;
 
 }
-h2 { color: skyblue;}
+h2 { color: skyblue;
+ font-family: 'dekko';
+ font-size: 55px;
+}
 
 p { font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     max-width: 800px;
     margin-top: 10px;
     margin-left: 42%; 
+    text-indent: 7%;
 }
 
 footer { font-size: small;

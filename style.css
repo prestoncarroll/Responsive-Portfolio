@@ -12,7 +12,7 @@ margin-left: 6%;
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 80px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -24,7 +24,12 @@ margin-left: 6%;
   }
 
   .fa-envelope {
-    background: #007bb5;
+    background: purple;
+    color: white;
+
+  }
+  .fa-github {
+    background: black;
     color: white;
 
   }

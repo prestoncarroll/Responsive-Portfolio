@@ -3,6 +3,7 @@
 font-family: 'dekko';
 font-size: 55px;
 margin-left: 6%;
+text-shadow: 2px 2px #ff0000;
 }
 
 .fa:hover {
@@ -143,6 +144,73 @@ padding-top: 10%;
     padding: .7%;
 }
 
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+
+#technicalHeader {
+    margin-left: 1%;
+    color:red;
+    font-family: 'dekko';
+    font-size: 55px;
+    padding: 20px;
+    }
+
+    #technicalBio {
+        margin-left: 10%;
+    }
+
+    #aboutMeText {
+        font: 10px;
+        padding: 15%;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    #awardsId {
+        padding: 10%;
+    }
+}
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+        #technicalHeader {
+            margin-left: 1%;
+            color:skyblue;
+            font-family: 'dekko';
+            font-size: 40px;
+            padding: 20px;
+            }
+        
+            #technicalBio {
+                margin-left: 10%;
+            }
+        
+            #aboutMeText {
+                font: 10px;
+                padding: 15%;
+            }
+            h2 {
+                font-size: 40px;
+            }
+        
+            #awardsId {
+                padding: 10%;
+            }
+        }
+        
+
+
+
+    
 
 
 /* button { margin-left: 30%;} */

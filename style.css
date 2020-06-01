@@ -1,3 +1,8 @@
+
+
+
+
+
 #contactHeader {
     color:skyblue;
 font-family: 'dekko';
@@ -152,10 +157,11 @@ padding-top: 10%;
 
 #technicalHeader {
     margin-left: 1%;
-    color:red;
+    margin-right: 10%;
+    color: skyblue;
     font-family: 'dekko';
-    font-size: 55px;
-    padding: 20px;
+    font-size: 50px;
+    padding: 10px;
     }
 
     #technicalBio {
@@ -181,6 +187,9 @@ padding-top: 10%;
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
+
+
+      
 
         #technicalHeader {
             margin-left: 1%;
